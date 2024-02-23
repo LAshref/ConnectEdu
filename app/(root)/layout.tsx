@@ -13,8 +13,8 @@ import Topbar from "@/components/shared/Topbar";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "ConnectEdu",
-  description: "A Next.js 13 application",
+  title: "ThreadEd",
+  description: "A Next.js 13 school project / application",
 };
 
 export default function RootLayout({
