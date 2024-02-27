@@ -2,6 +2,7 @@
 const nextConfig = {
   experimental: {
     serverActions: true,
+    serverComponents: true,
     serverComponentsExternalPackages: ["mongoose"],
   },
   eslint: {
@@ -28,6 +29,7 @@ const nextConfig = {
         hostname: "placehold.co",
       },
     ],
+    domains: ['utfs.io'],
   },
 };
 
